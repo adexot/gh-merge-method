@@ -1,6 +1,6 @@
 {
   "name": "gh-merge-method",
-  "displayName": "Gh merge method",
+  "displayName": "gh merge method",
   "version": "0.0.1",
   "description": "An extension to configure github merge method",
   "author": "Adekunle Oseni",
