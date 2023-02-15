@@ -20,8 +20,6 @@ window.addEventListener('click', () => {
   const mergeMenu = document.querySelectorAll('.js-merge-method-menu .select-menu-item');
 
   if (mergeMenu) {
-    console.log({ mergeMenu })
-
     mergeMenu.forEach(menu => {
       if (EXCEPTIONS.includes(menu.getAttribute('value'))) {
         menu.setAttribute('disabled', '')
